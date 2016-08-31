@@ -2,6 +2,7 @@
 
   .Btn {
     @include Button;
+    min-height: $btn-fixed-unit;
 
     + .Btn {
       margin-left: $mg--s;

@@ -11,6 +11,7 @@
   }
 
   .Btn--s {
+    min-height: $btn-fixed-unit--s;
     padding: $btn-pdv--s $btn-pdh--s;
     font-size: $fz--s;
     line-height: $base-lh;

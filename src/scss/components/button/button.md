@@ -178,9 +178,9 @@
   <button class="Btn BtnGroup-item" disabled>Button C</button>
 </div>
 <div class="BtnGroup">
-  <button class="Btn BtnGroup-item BtnGroup-item--s">Button A</button>
-  <button class="Btn BtnGroup-item BtnGroup-item--s">Button B</button>
-  <button class="Btn BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
+  <button class="Btn Btn--s BtnGroup-item BtnGroup-item--s">Button A</button>
+  <button class="Btn Btn--s BtnGroup-item BtnGroup-item--s">Button B</button>
+  <button class="Btn Btn--s BtnGroup-item BtnGroup-item--s is-selected">Button C</button>
 </div>
 ```
 
