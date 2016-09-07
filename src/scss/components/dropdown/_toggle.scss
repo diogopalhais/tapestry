@@ -1,6 +1,6 @@
 @if $import-dropdown and $import-button {
 
-  .Dropdown-toggle {
+  .Dropdown-toggle:not(.Btn) {
     @include Button;
     padding: $dropdown-toggle-padding;
     font-size: inherit;

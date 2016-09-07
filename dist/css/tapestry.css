@@ -2836,7 +2836,7 @@ a {
   color: #46b489;
 }
 
-.Dropdown-toggle {
+.Dropdown-toggle:not(.Btn) {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2876,7 +2876,7 @@ a {
   cursor: pointer;
 }
 
-.Dropdown-toggle:after {
+.Dropdown-toggle:not(.Btn):after {
   content: "\ea8c";
   padding-left: 0.71429rem;
   font-family: "tapestry-icons";
@@ -2885,11 +2885,11 @@ a {
   color: #a1a9ae;
 }
 
-.Dropdown--s .Dropdown-toggle:after {
+.Dropdown--s .Dropdown-toggle:not(.Btn):after {
   font-size: 0.35714rem;
 }
 
-.Dropdown-toggle[aria-expanded="true"] {
+.Dropdown-toggle:not(.Btn)[aria-expanded="true"] {
   color: #394246;
 }
 
